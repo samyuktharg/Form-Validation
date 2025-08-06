@@ -67,18 +67,5 @@ The form has been tested for the following cases:
 
 ---
 
-##  Deployment
-
-###  Repository Structure
-
-```
-📦 community-event-signup/
-├── 3index.html         # Main HTML form
-├── 3style.css          # Form styling
-├── 3script.js          # JavaScript validations
-├── README.md           # Project documentation
-└── design/             # (Optional) UI wireframes or mockups
-```
-
 ##  Link
 https://samyuktharg.github.io/Form-Validation/3index.html
