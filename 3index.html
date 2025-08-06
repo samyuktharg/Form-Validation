@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Community Event Signup</title>
+        <link rel="stylesheet" href="3style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Community Event Signup</h2>
+            <form id="registrationForm" novalidate>
+                <div class="form-group">
+                    <label for="name"> Full Name *</label>
+                    <input type="text" id="name" required>
+                    <small class="error" id="nameError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email id *</label>
+                    <input type="email" id="email" required>
+                    <small class="error" id="emailError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="phone"> Phone no *</label>
+                    <input type="text" id="phone" required>
+                    <small class="error" id="phoneError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="age"> Age *</label>
+                    <input type="number" id="age" required>
+                    <small class="error" id="ageError"></small>
+                </div>
+                <div class="form-group">
+                    <label>Interests (Optional): </label>
+                    <label><input type="checkbox">Music</label>
+                    <label><input type="checkbox">Art</label>
+                    <label><input type="checkbox">Dance</label>
+                </div>
+
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+        <script src="3script.js"></script>
+    </body>
+</html>
