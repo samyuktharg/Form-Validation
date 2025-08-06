@@ -68,4 +68,4 @@ The form has been tested for the following cases:
 ---
 
 ##  Link
-https://samyuktharg.github.io/Form-Validation/3index.html
+https://samyuktharg.github.io/Form-Validation/index.html
